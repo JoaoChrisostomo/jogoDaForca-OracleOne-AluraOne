@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     width: 100vw;
     height: 90vh;
-    margin-top: 10px;
+    margin-top: 10px; 
     background-image: radial-gradient(circle at 120.71% 50%, #fffd85 0, #fffe76 8.33%, #fffd67 16.67%, #fffc5a 25%, #f7fa4d 33.33%, #d8f743 41.67%, #b5f23c 50%, #8ded3b 58.33%, #5de841 66.67%, #00e34c 75%, #00df5b 83.33%, #00db6c 91.67%, #00d77f 100%);
     font-family: 'Dongle', sans-serif;
 }
 
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,14 +22,14 @@ body {
     flex-direction: column;
 }
 
-#imagem {
-    background-image: url("../JogoDaForca/img/forca.png");
+#imagem{
+    background-image: url("./img/forca.png");
     width: 234px;
     height: 272px;
     background-repeat: no-repeat;
 }
 
-#palavra-secreta {
+#palavra-secreta{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     margin-top: 3px;
 }
 
-.letras {
+.letras{
     width: 16px;
     text-align: center;
     border-bottom: 3px solid #8b008b;
@@ -48,98 +48,88 @@ body {
     margin-right: 2px;
 }
 
-#teclado {
+#teclado{
     margin-top: 30px;
 }
 
-.teclas button {
+.teclas button{
     width: 24px;
     height: 24px;
     margin: 2px;
     margin-bottom: 5px;
     cursor: pointer;
-    box-shadow: 0px 2px 8px #00d77f;
+    box-shadow:  0px 2px 8px #00d77f;
     border-radius: 5px;
     border: 2px solid #00d77f;
     color: #000000;
 }
 
-.teclas button:hover {
+.teclas button:hover{
     transform: scale(1.5);
 }
 
-#categoria {
+#categoria{
     margin-top: 30px;
     color: #000000;
     font-size: 1.2em;
     text-align: center;
 }
 
-@media (min-width: 321px) {
-    .teclas button {
+@media (min-width: 321px){
+    .teclas button{
         width: 25px;
         height: 25px;
     }
-
-    #categoria {
+    #categoria{
         font-size: 1.2em;
     }
 }
 
-@media (min-width: 376px) {
-    .teclas button {
+@media (min-width: 376px){
+    .teclas button{
         width: 30px;
         height: 30px;
     }
-
-    #categoria {
+    #categoria{
         font-size: 1.3em;
     }
-
-    #palavra-secreta {
+    #palavra-secreta{
         font-size: 1.5em;
     }
-
-    .letras {
+    .letras{
         width: 18px;
     }
 }
 
-@media (min-width: 426px) {
-    .teclas button {
+@media (min-width: 426px){
+    .teclas button{
         width: 36px;
         height: 36px;
     }
-
-    #categoria {
+    #categoria{
         font-size: 1.6em;
     }
-
-    #palavra-secreta {
+    #palavra-secreta{
         font-size: 1.5em;
     }
-
-    .letras {
+    .letras{
         width: 20px;
     }
 }
 
-@media (min-width: 769px) {
-    .teclas button {
+@media (min-width: 769px){
+    .teclas button{
         width: 68px;
         height: 68px;
         font-size: 2em;
     }
-
-    #categoria {
+    #categoria{
         font-size: 2em;
     }
-
-    #palavra-secreta {
+    #palavra-secreta{
         font-size: 2.5em;
     }
-
-    .letras {
+    .letras{
         width: 35px;
     }
 }
