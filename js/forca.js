@@ -322,11 +322,7 @@ function abreModal(titulo, mensagem){
     });
 }
 
-let bntReiniciar = document.querySelector("#btnReiniciar")
+let bntReiniciar = document.querySelector("#btnReiniciar");
 bntReiniciar.addEventListener("click", function(){
     location.reload();
 });
-
-
-
-
